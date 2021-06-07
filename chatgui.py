@@ -88,7 +88,7 @@ userinput = ''
 print('Hello! Welcome to tweet bot')
 print("type \'\\exit\' to terminate application")
 while userinput != '\exit':
-    userinput = input('')
+    userinput = raw_input('')
     print('user: ', userinput)
     res = chatbot_response(userinput)
     print('bot: ', res)
